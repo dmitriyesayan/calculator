@@ -2,15 +2,23 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Playground - JavaScript 101</title>
+    <title>Calculator 1</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <p style="margin-top: 40vh; text-align: center; font: normal 24px monospace;">
-      Open the console 🤓
-    </p>
-
-    <!-- Add some HTML in here -->
-
+    <div class="container">
+      <h1>Calculator</h1>
+      <div class="flex">
+        <div>
+          <h4>Input</h4>
+          <input type="text" id="input">
+        </div>
+        <div>
+          <h4>Output</h4>
+          <output name="result" id="output"></output>
+        </div>
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
